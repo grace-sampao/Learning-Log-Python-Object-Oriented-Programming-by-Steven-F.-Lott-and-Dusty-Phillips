@@ -7,7 +7,9 @@ authors = [
     { name = "grace-sampao" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "mypy>=2.4.0",
+]
 
 [project.scripts]
 python-object-oriented-programming = "python_object_oriented_programming:main"
