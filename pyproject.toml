@@ -1,0 +1,17 @@
+[project]
+name = "python-object-oriented-programming"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "grace-sampao" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+python-object-oriented-programming = "python_object_oriented_programming:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
