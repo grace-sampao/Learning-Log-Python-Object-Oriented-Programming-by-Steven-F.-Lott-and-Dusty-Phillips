@@ -1,0 +1,7 @@
+classDiagram
+    class JobSearchAgent {
+        +docs: PDFDocument[*]
+        +embeddingTool: embeddingTool
+        +webSearchTool: WebSearchTool
+        +searchJobs() Collection~JobPostingLink~
+    }
