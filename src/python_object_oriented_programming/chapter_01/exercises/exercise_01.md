@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class JobSearchAgent {
         +docs: PDFDocument[*]
@@ -5,3 +6,4 @@ classDiagram
         +webSearchTool: WebSearchTool
         +searchJobs() Collection~JobPostingLink~
     }
+```
